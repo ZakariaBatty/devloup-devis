@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/zbatty/Desktop/projects/devloup-devis-dashboard/app/layout.tsx"],"sourcesContent":["import './styles.css'\nimport type { Metadata } from 'next'\n\nexport const metadata: Metadata = {\n  title: 'DevLoup Devis',\n  description: 'Mini dashboard de devis DevLoup Solutions Web'\n}\n\nexport default function RootLayout({children}:{children:React.ReactNode}){\n  return <html lang=\"fr\"><body>{children}</body></html>\n}\n"],"names":[],"mappings":";;;;;;;;;AAGO,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAC,QAAQ,EAA4B;IACtE,qBAAO,8OAAC;QAAK,MAAK;kBAAK,cAAA,8OAAC;sBAAM;;;;;;;;;;;AAChC","debugId":null}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["file:///Users/zbatty/Desktop/projects/devloup-devis-dashboard/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}
