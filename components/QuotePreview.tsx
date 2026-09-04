@@ -2,7 +2,7 @@
 import { Quote } from '../lib/types'
 
 const money = (n: number) => new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(n) + ' DH'
-
+// test
 export default function QuotePreview({ quote }: { quote: Quote }) {
   const total = quote.lines.reduce((s, l) => s + l.qty * l.price, 0)
   return <div className="paper" id="quote-paper">
